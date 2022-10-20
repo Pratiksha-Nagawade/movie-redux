@@ -1,0 +1,39 @@
+@import "../../Common/colours.scss";
+
+.header {
+  background-color: $secondary-color;
+  height: 70px;
+  padding: 0px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo {
+  color: $font-primary;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.serach-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  form {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    button {
+      padding: 0px 8px;
+      font-size: 10pxpx;
+      cursor: pointer;
+      height: 30px;
+      width: auto;
+    }
+  }
+
+  input {
+    width: 60%;
+    padding: 5px 5px 5px 10px;
+    border: none;
+  }
+}
